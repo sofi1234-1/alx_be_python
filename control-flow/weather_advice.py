@@ -1,6 +1,9 @@
-Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> 
-= RESTART: F:/weather_advice.py
-What's the weather like today? (sunny/rainy/cold): sunny
-Wear a t-shirt and sunglasses.
+weather = input("What's the weather like today? (sunny/rainy/cold): ")
+if weather == "sunny":
+  print("Wear a t-shirt and sunglasses.")
+elif weather == "rainy":
+  print("Don't forget your umbrella and a raincoat.")
+elif weather == "cold":
+  print("Make sure to wear a warm coat and a scarf.")
+else:
+  print("Sorry, I don't have recommendations for this weather.")
