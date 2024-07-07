@@ -10,6 +10,7 @@ def display_menu():
 
 def main():
     """Main function to handle shopping list operations."""
+    print(f"Shopping List Manager")  # Added the requested print statement
     while True:
         display_menu()
         choice = input("Enter your choice: ")
