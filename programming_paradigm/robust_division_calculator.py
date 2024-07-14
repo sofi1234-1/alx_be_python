@@ -19,6 +19,6 @@ def safe_divide(numerator, denominator):
 # Example usage:
 if __name__ == "__main__":
     # Test cases
-    print(safe_divide(10, 5))  # Normal division
+    print("The result of the division is", safe_divide(10, 5))  # Normal division
     print(safe_divide(10, 0))  # Division by zero
     print(safe_divide("ten", 5))  # Non-numeric input
